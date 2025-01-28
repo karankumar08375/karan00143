@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html body{
+    width: 100%;
+    height: 100%;
+    /* border: solid; */
+  
+
+}
+header{
+    width: 100vw;
+    height: 100%;
+    border: solid;
+}
+header .nav1 .logo{
+    width: 100vw;
+    height: 10vh;
+    border: solid;
+    display: flex;
+    background-color: #753526;
+}
+header .nav1 .logo .marvel1{
+    width: 15vw;
+    height: 9vh;
+border: solid;
+}
+header .nav1 .logo .marvel1 h2{
+    font-size: 1.5vw;
+    margin: 1vw 1vw 1vw 1.5vw;
+}
+header .nav1 .logo .marvel1 h2 a{
+  text-decoration: none;
+  color: #2dc7e2;
+}
+header .nav1 .logo .marvel2{
+    width: 60vw;
+    height: 9vh;
+ /* border: solid; */
+}
+header .nav1 .logo .marvel2 img{
+    width: 10vw;
+    height: 10vh;
+    margin: 0vw 1vw 1vw 28.5vw;
+}
+header .nav1 .logo .marvel3{
+    width: 15vw;
+    height: 9vh;
+ 
+border: solid;
+display:flex;
+}
+/* header nav .logo .marvel3 img{
+    width: 4vw;
+    height: 5vh;
+    border: solid;
+    margin-top:.5vw ;
+} */
+header .nav1 .logo .marvel3 h3{
+    font-size: 1.1vw;
+    margin-top: .5vw;
+    color: #e4dddd;
+}
+header .nav1 .logo .marvel4{  
+      width: 10vw;
+    height: 9vh;
+border: solid;
+
+}
+header .nav1 .logo .marvel4 a{
+    color: #20bcd1;
+    margin-right: 4vw;
+}
+header .nav1 .logo .marvel4 i{
+    font-size: 2vw;
+    margin: .5vw 1vw 1vw 4vw ;
+}
+header .nav1 .navbar{
+    width: 100%;
+    height: 100%;
+    border: solid .1vw; 
+    display: block;
+    justify-content: space-around;
+    background-color:rgb(35, 104, 61);
+    /* margin-top: 1vw; */
+}
+header .nav1 .navbar .{
+color: #883636;
+}
+.bar{
+  display:none;
+}
+header .nav1 .option h1 a:hover{
+  color: #ece8e8;
+}
+header #navbar-example2{
+  background-color: #19535e;
+}
+header .newpeg{
+    width: 100vw;
+    height: 90vh;
+    border: solid .1vw;
+    background-color: #1a998e;
+    display: flex;
+}
+header .newpeg .log1{
+    margin: 2vw 2vw 2vw 2vw ;
+    width: 90vw;
+    height: 80vh;
+    /* border: solid; */
+    text-align: center;
+    border-radius: 15px;
+    /* padding-left: 2vw; */
+    /* background-color: #503613; */
+    border-radius: 15px;
+background-color: rgb(118, 211, 241);
+transition: box-shadow 0.3s ease;
+}
+header .newpeg .log2  {
+padding: 6vw 2vw 2vw 2vw;
+/* background-color: #7e7842; */
+/* width: 200px;
+height: 100px; */
+transition: 1s;
+}
+/* div {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    transition: box-shadow 0.3s ease;
+  } */
+  
+  header .newpeg .log2 :hover {
+    transform: scale(1.2 , 1.2);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+header .newpeg .log2 p{
+    font-size: 1.4vw;
+}
+header .newpeg .log3 img{
+   width: 17vw;
+   height: 27vh;
+   transition: 1s;
+}
+header .newpeg .log3 img:hover{
+  transform: scale(1.2 , 1.2);
+}
+
+header .content .pag1{
+width: 100vw;
+height: 100%;
+border: solid;
+display: flex;
+/* background-color: #070707;
+ */
+ background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+  header .content {
+  width: 100vw; 
+  height: 100vh;
+  border: solid;
+/* background-color: rgb(red); */
+display: block;
+
+background-image: url(https://media.istockphoto.com/id/1704998149/photo/firefighters-battling-a-roaring-fire.jpg?s=612x612&w=0&k=20&c=ElvG8iJuIEYb8LgOk-ncnJ-h7yDDsfQIPxwt_zOIVTc=);
+background-repeat: no-repeat;
+background-size:cover ;
+}
+
+#news-container {
+    margin:2vw 1vw 1vw 10vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow:auto;
+  }
+  
+  .news-item {
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .news-item h3 {
+    color: #ff5733;
+  }
+  
+  .news-item p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  #add-news .h2{
+   color: #fcfcfc;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e04e29;
+  }
+  
+  #add-news {
+    margin:2vw 1vw 1vw 10vw;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .road {
+    /* border: solid; */
+    scrollbar-width: none;
+    height: 70vh;
+    width: 100%; /* Full width of the parent container */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-image: url(https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tfn22ca2WCUguEfVxlBqbfywnihVhdwh-Hxkzi8Z6E8CM39nMWFyXHsaZcVZyGtCJQRZGeL_YX-dedCTjCdt2WIfRIUlvgYsbXvmtU5svSsyBFf12PipfqxD91akT76S6uNakApV22CrITz2bqeuoM6idmy8ZAmJ2BnehWfXm4BY9S_mwFU6YKtaGrulOEpFuO5MNNzUiFh3zaBaC7ie6yDMhyCDHcVB67CjE_lEGVllM1l6BaltjZs9yIAo3h7Y_tIZZktA78B4vwOdVrtzYjIr4bww=w1200-h630-p-k-no-nu);
+    white-space: nowrap; /* Prevent content from wrapping to the next line */
+}
+.road h2{
+  text-align: center;
+  margin-top: 3vw;
+  font-size: 2.5vw;
+  color: white;
+  text-decoration:underline;
+}
+
+.road1 {
+display: flex;
+    width: 200%; /* Make the content wider than the container to enable scrolling */
+}
+
+.road1 .road2{
+  color: #ffffff;
+  margin:5vw 5vw 5vw 5vw;
+  width: 15vw;
+  height:55vh;
+  /* border: solid; */
+    display: inline-block; /* Keep the items in a single line */
+    margin-right: 20px;
+    text-align: center;
+}
+.road1 .road3{
+  color: #ffffff;
+  margin:5vw 5vw 5vw 5vw;
+  width: 15vw;
+  height:55vh;
+  /* border: solid; */
+    display: inline-block; /* Keep the items in a single line */
+    margin-right: 20px;
+    text-align: center;
+}
+.road1 .road4{
+  color: #ffffff;
+  margin:5vw 5vw 5vw 5vw;
+  width: 15vw;
+  height:55vh;
+  /* border: solid; */
+    display: inline-block; /* Keep the items in a single line */
+    margin-right: 20px;
+    text-align: center;
+}
+.road1 .road5{
+  color: #ffffff;
+  margin:5vw 5vw 5vw 5vw;
+  width: 15vw;
+  height:55vh;
+  /* border: solid; */
+    display: inline-block; /* Keep the items in a single line */
+    margin-right: 20px;
+    text-align: center;
+}
+.road1 .road6{
+  color: #ffffff;
+  margin:5vw 5vw 5vw 5vw;
+  width: 15vw;
+  height:55vh;
+  /* border: solid; */
+    display: inline-block; /* Keep the items in a single line */
+    margin-right: 20px;
+    text-align: center;
+}
+.road1 .road7{
+  color: #ffffff;
+  margin:5vw 5vw 5vw 5vw;
+  width: 15vw;
+  height:55vh;
+  /* border: solid; */
+    display: inline-block; /* Keep the items in a single line */
+    margin-right: 20px;
+    text-align: center;
+}
+
+.road1 .road2 img{
+  width: 15vw;
+  height:23vh;
+  /* border: solid; */
+}
+.road1 .road2 p{
+  font-size: 1.1vw;
+}
+.road1 .road3 img{
+  width: 15vw;
+  height:23vh;
+  /* border: solid; */
+}
+.road1 .road3 p{
+  font-size: 1.1vw;
+}
+.road1 .road4 img{
+  width: 15vw;
+  height:23vh;
+  /* border: solid; */
+}
+.road1 .road4 p{
+  font-size: 1.1vw;
+}
+.road1 .road5 img{
+  width: 15vw;
+  height:23vh;
+  /* border: solid; */
+}
+.road1 .road5 p{
+  font-size: 1.1vw;
+}
+.road1 .road6 img{
+  width: 15vw;
+  height:23vh;
+  /* border: solid; */
+}
+.road1 .road6 p{
+  font-size: 1.1vw;
+}
+.road1 .road7 img{
+  width: 15vw;
+  height:23vh;
+  /* border: solid; */
+}
+.road1 .road7 p{
+  font-size: 1.1vw;
+}
+
+
+header .map1{
+  width: 100vw;
+  height: 70vh;
+  border:solid;
+  display: flex;
+}
+header .map2{
+  width: 50vw;
+  height: 70vh;
+  border: solid;
+  background-color: #502222;
+}
+header .map2 h1 {
+  color: white;
+  text-align: center;
+  margin: 2vw 1vh;
+  font-size: 1.5vw;
+}
+header .map2 iframe {
+  width:  30vw;
+  height: 40vh;
+  margin-left: 10vw;
+  border: solid;
+}
+header .map3{
+  width: 50vw;
+  height: 70vh;
+  border: solid;
+  background-image: url(https://www.mappls.com/place/DK38KO_1707228768451_1.png);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  text-align: center;
+}
+header .map3 h1{
+  margin: 8vw 2vw 2vw 2vw;
+  text-align: center;
+  color: #faf5f5;
+  text-decoration: underline;
+}
+header .map3 h1:hover{
+
+  
+  color: #5c0e0e;
+  /* text-decoration: underline; */
+}
+header .map3 h2 a {
+  margin: 2vw 2vw 2vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+header .map3 h2 a:hover {
+
+  color: rgb(102, 11, 11);
+}
+
+
+header .about{
+  width: 100vw;
+  height: 50vh;
+  /* border: solid; */
+  display: flex;
+  background-color: #111010;
+}
+header .about .about1{
+  width: 35vw;
+  height: 50vh;
+  border: solid 1px white;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  
+align-items: center;}
+header .about .about1 h1{
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-left: 10vw;
+   color: rgb(0, 153, 255);
+}
+header .about .about1 .good{
+  width: 25vw;
+  height: 37vh;
+  /* border: solid; */
+  display: flex;
+  /* margin-top: 2vw; */
+  margin-left: 2vw;
+}
+header .about .about1  .good h2 {
+  width: 5vw;
+  height: 6vh;
+  /* border: solid; */
+  /* display: flex; */
+  margin: 2vw 3vh;
+  padding: 2vw 1.5vh;
+}
+header .about .about1  .good h2 i{
+  color: rgb(0, 153, 255);
+  /* width: 3vw;
+  height: 5vh; */
+  margin-left: 1.9vw;
+  padding: 1vw;
+  border: solid rgb(0, 153, 255) .2vw;
+}
+header .about .about1  .good h2 i:hover {
+  color: rgb(236, 237, 238);
+ 
+  border: solid rgb(240, 244, 247) .2vw;
+}
+
+header .about .about2{
+  width: 30vw;
+  height: 50vh;
+  border: solid 1px white;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  
+align-items: center;}
+header .about .about2 h1{
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-left: 10vw;
+   color: rgb(0, 153, 255);
+}
+header .about .about2 .good2{
+  width: 25vw;
+  height: 37vh;
+  /* border: solid; */
+  /* display: flex; */
+  /* margin-top: 2vw; */
+  margin-left: 2vw;
+}
+header .about .about2  .good2 h2 {
+  font-size: 1.5vw;
+ margin-top: .5vw;
+  color: rgb(0, 153, 255);
+}
+header .about .about2  .good2 h2:hover {
+ margin-top: .5vw;
+  color: rgb(242, 243, 243);
+}
+header .about .about3{
+  width: 35vw;
+  height: 50vh;
+  border: solid 1px white;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  
+align-items: center;}
+header .about .about3 h1{
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-left: 10vw;
+   color: rgb(0, 153, 255);
+}
+header .about .about3 .good3{
+  width: 25vw;
+  height: 37vh;
+  /* border: solid; */
+  /* display: flex; */
+  /* margin-top: 2vw; */
+  margin-left: 2vw;
+}
+header .about .about3  .good3 h2 {
+  font-size: 1.5vw;
+ margin-top: .9vw;
+  color: rgb(0, 153, 255);
+}
+header .about .about3  .good3 h2 a{
+  text-decoration: none;
+  color: rgb(0, 153, 255);
+}
+header .about .about3  .good3 h2 a p i{
+  font-size: 4vw;
+  margin: 2vw 2vw 2vw 9vw;
+}
+header .about .about3  .good3 h2 a:hover{
+  color: #f1f0f0;
+}
+@media (max-width:700px) {
+  
+  
+}
