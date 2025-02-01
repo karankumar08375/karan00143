@@ -14,19 +14,19 @@ html body{
 header{
     width: 100vw;
     height: 100%;
-    border: solid;
+    border: none;
 }
 header .nav1 .logo{
     width: 100vw;
     height: 10vh;
-    border: solid;
+    border: solid .1vw;
     display: flex;
     background-color: #753526;
 }
 header .nav1 .logo .marvel1{
-    width: 15vw;
-    height: 9vh;
-border: solid;
+    width: 12vw;
+    height: 10vh;
+border-right: solid .1vw;
 }
 header .nav1 .logo .marvel1 h2{
     font-size: 1.5vw;
@@ -38,8 +38,8 @@ header .nav1 .logo .marvel1 h2 a{
 }
 header .nav1 .logo .marvel2{
     width: 60vw;
-    height: 9vh;
- /* border: solid; */
+    height: 10vh;
+ border-right: solid .1vw;
 }
 header .nav1 .logo .marvel2 img{
     width: 10vw;
@@ -47,10 +47,10 @@ header .nav1 .logo .marvel2 img{
     margin: 0vw 1vw 1vw 28.5vw;
 }
 header .nav1 .logo .marvel3{
-    width: 15vw;
+    width: 17vw;
     height: 9vh;
  
-border: solid;
+border: none;
 display:flex;
 }
 /* header nav .logo .marvel3 img{
@@ -60,14 +60,14 @@ display:flex;
     margin-top:.5vw ;
 } */
 header .nav1 .logo .marvel3 h3{
-    font-size: 1.1vw;
-    margin-top: .5vw;
+    font-size: 1.5vw;
+    margin: 1vw .5vw .5vw .5vw;
     color: #e4dddd;
 }
 header .nav1 .logo .marvel4{  
-      width: 10vw;
-    height: 9vh;
-border: solid;
+      width: 12vw;
+    height: 10vh;
+border: solid .1vw;
 
 }
 header .nav1 .logo .marvel4 a{
@@ -75,8 +75,8 @@ header .nav1 .logo .marvel4 a{
     margin-right: 4vw;
 }
 header .nav1 .logo .marvel4 i{
-    font-size: 2vw;
-    margin: .5vw 1vw 1vw 4vw ;
+    font-size: 2.3vw;
+    margin: 1.5vw 1vw 1vw 4vw ;
 }
 header .nav1 .navbar{
     width: 100%;
@@ -87,7 +87,7 @@ header .nav1 .navbar{
     background-color:rgb(35, 104, 61);
     /* margin-top: 1vw; */
 }
-header .nav1 .navbar .{
+header .nav1 .navbar {
 color: #883636;
 }
 .bar{
@@ -541,6 +541,533 @@ header .about .about3  .good3 h2 a:hover{
   color: #f1f0f0;
 }
 @media (max-width:700px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html body{
+    width: 100%;
+    height: 100%;
+    /* border: solid; */
   
+
+}
+header{
+    width: 100vw;
+    height: 100%;
+    border: solid .1vw;
+}
+header .nav1 .logo{
+    width: 100vw;
+    height: 10vh;
+    border: solid;
+    display: flex;
+    background-color: #753526;
+}
+header .nav1 .logo .marvel1{
+    width: 25vw;
+    height: 10vh;
+    /* color: #0f4142; */
+border: solid .1vw;
+}
+header .nav1 .logo .marvel1 h2{
+    font-size: 4.5vw;
+    margin: 1vw 1vw 1vw 1.5vw;
+}
+header .nav1 .logo .marvel1 h2 a{
+  text-decoration: none;
+  color: #1a7d8f;
+}
+header .nav1 .logo .marvel2{
+    width: 60vw;
+    height: 10vh;
+ border: none;
+}
+header .nav1 .logo .marvel2 img{
+    width: 30vw;
+    height: 10vh;
+    margin: 0vw 1vw 1vw 14.5vw;
+}
+header .nav1 .logo .marvel3{
+    width: 15vw;
+    height: 9vh;
+    display: none;
+border: none;
+display:flex;
+}
+/* header nav .logo .marvel3 img{
+    width: 4vw;
+    height: 5vh;
+    border: solid;
+    margin-top:.5vw ;
+} */
+header .nav1 .logo .marvel3 h3{
+    font-size: 12.1vw;
+    margin-top: .5vw;
+    color: #e4dddd;
+    display: none;
+}
+header .nav1 .logo .marvel4{  
+      width: 30vw;
+    height: 10vh;
+border: solid .1vw;
+
+}
+header .nav1 .logo .marvel4 a{
+    color: #168492;
+    margin-right: 4vw;
+}
+header .nav1 .logo .marvel4 i{
+    font-size: 9vw;
+    margin: 2vw 1vw 1vw 6vw ;
+}
+header .nav1 .navbar{
+    width: 100%;
+    height: 100%;
+    border: solid .1vw; 
+    display: block;
+    justify-content: space-around;
+    background-color:rgb(35, 104, 61);
+    /* margin-top: 1vw; */
+}
+header .nav1 .navbar {
+color: #883636;
+}
+.bar{
+  display:none;
+}
+header .nav1 .option h1 a:hover{
+  color: #ece8e8;
+}
+header #navbar-example2{
+  background-color: #19535e;
+}
+header .newpeg{
+    width: 100vw;
+    height: 85vh;
+    border: none;
+    background-color: #1a998e;
+    display: flex;
+    padding-top: 2vw;
+    padding-left: 3vw;
+}
+header .newpeg .log1{
+    margin: 2vw 2vw 2vw 2vw ;
+    width: 90vw;
+    height: 76vh;
+    /* border: solid; */
+    text-align: center;
+    border-radius: 15px;
+    /* padding-left: 2vw; */
+    /* background-color: #503613; */
+    border-radius: 15px;
+background-color: rgb(118, 211, 241);
+transition: box-shadow 0.3s ease;
+}
+header .newpeg .log2  {
+padding: 6vw 2vw 2vw 2vw;
+/* background-color: #7e7842; */
+/* width: 200px;
+height: 100px; */
+transition: 1s;
+}
+/* div {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    transition: box-shadow 0.3s ease;
+  } */
+  
+  header .newpeg .log2 :hover {
+    transform: scale(1.2 , 1.2);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+header .newpeg .log2 p{
+    font-size: 4.4vw;
+}
+header .newpeg .log3 img{
+   width: 50vw;
+   height: 25vh;
+   transition: 1s;
+}
+header .newpeg .log3 img:hover{
+  transform: scale(1.2 , 1.2);
+}
+
+header .content .pag1{
+width: 100vw;
+height: 100%;
+border: none;
+display: flex;
+/* background-color: #070707;
+ */
+ background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+  header .content {
+  width: 100vw; 
+  height: 50vh;
+  border: none;
+/* background-color: rgb(red); */
+display: block;
+
+background-image: url(https://media.istockphoto.com/id/1704998149/photo/firefighters-battling-a-roaring-fire.jpg?s=612x612&w=0&k=20&c=ElvG8iJuIEYb8LgOk-ncnJ-h7yDDsfQIPxwt_zOIVTc=);
+background-repeat: no-repeat;
+background-size:cover ;
+}
+
+#news-container {
+  /* width:60vw; */
+    margin:2vw 1vw 1vw 5vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 125vw;
+    height: 45vh;
+    overflow:auto;
+  }
+  
+  .news-item {
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .news-item h3 {
+    color: #ff5733;
+  }
+  
+  .news-item p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  #add-news .h2{
+   color: #fcfcfc;
+  }
+  #news-input{
+    font-size: 4vw;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e04e29;
+  }
+  
+  #add-news {
+    margin:2vw 1vw 1vw 10vw;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+
+  .road{
+    border: none;
+    width: 100vw;
+    height: 120vw;
+  }
+  
+  .road h2 {
+      font-size: 5.5vw;
+      margin: 6vw 2vw 2vw 6vw;
+    
+  }
+  
+  
+  .road1 {
+    width: 80vw;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 2vw 2vw 2vw 20vw;
+    
+}
+
+.road1 .road2  {
+  width: 70vw;
+  height: 52vh;
+  /* border: solid; */
+  margin: 1.5vw 2vw;
+}
+.road1 .road2 img{
+  width:40vw;
+}
+.road1 .road2 p{
+  text-align: center;
+  /* width: 30vw; */
+  font-size: 5vw;
+}
+.road1 .road3  {
+  width: 70vw;
+  height: 52vh;
+  /* border: solid; */
+  margin: 1.5vw 2vw;
+}
+.road1 .road3 img{
+  width:45vw;
+}
+.road1 .road3 p{
+  text-align: center;
+  /* width: 30vw; */
+  font-size: 5vw;
+}
+.road1 .road4  {
+  width: 70vw;
+  height: 52vh;
+  margin: 1.5vw 2vw;
+  /* border: solid; */
+}
+.road1 .road4 img{
+  width:40vw;
+}
+.road1 .road4 p{
+  text-align: center;
+  /* width: 30vw; */
+  font-size: 5vw;
+}
+.road1 .road5  {
+  width: 70vw;
+  height: 52vh;
+  margin: 1.5vw 2vw;
+  /* border: solid; */
+}
+.road1 .road5 img{
+  width:40vw;
+}
+.road1 .road5 p{
+  text-align: center;
+  /* width: 30vw; */
+  font-size: 5vw;
+}
+.road1 .road6  {
+  width: 70vw;
+  height: 52vh;
+margin-top: 15vw;
+  /* border: solid; */
+}
+.road1 .road6 img{
+  width:40vw;
+}
+.road1 .road6 p{
+  text-align: center;
+  /* width: 30vw; */
+  font-size: 5vw;
+}
+.road1 .road7  {
+  width: 70vw;
+  height: 52vh;
+  margin: 1.5vw 2vw;
+  /* border: solid; */
+}
+.road1 .road7 img{
+  width:40vw;
+}
+.road1 .road7 p{
+  text-align: center;
+  /* width: 30vw; */
+  font-size: 5vw;
+}
+
+
+
+header .map1{
+  width: 100vw;
+  height: 100%;
+  border:none;
+  display: block;
+}
+header .map2{
+  width: 100vw;
+  height: 65vh;
+  border: solid;
+  background-color: #502222;
+}
+header .map2 h1 {
+  color: rgb(248, 245, 245);
+  text-align: center;
+  margin: 2vw 1vh;
+  font-size: 5.5vw;
+}
+header .map2 iframe {
+  width:  85vw;
+  height: 40vh;
+  margin-top: 6vw;
+  margin-left: 8vw;
+  border: solid;
+}
+header .map3{
+  width:100vw;
+  height: 50vh;
+  border: solid;
+  background-image: url(https://www.mappls.com/place/DK38KO_1707228768451_1.png);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  text-align: center;
+}
+header .map3 h1{
+  margin: 8vw 2vw 2vw 2vw;
+  text-align: center;
+  color: #080808;
+  text-decoration: underline;
+}
+header .map3 h1:hover{
+
+  
+  color: #f8f6f6;
+  /* text-decoration: underline; */
+}
+header .map3 h2 a {
+  margin: 2vw 2vw 2vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+header .map3 h2 a:hover {
+
+  color: rgb(102, 11, 11);
+}
+
+
+header .about{
+  width: 100vw;
+  height: 100%;
+  /* border: solid; */
+  display: block;
+  background-color: #111010;
+}
+header .about .about1{
+  width: 100vw;
+  height: 30vh;
+  border: solid 1px white;
+  display: block;
+  /* justify-content: space-between; */
+  
+align-items: center;}
+header .about .about1 h1{
+  font-size: 6vw;
+  margin-top: 10vw;
+  margin-left: 40vw;
+   color: rgb(0, 153, 255);
+}
+header .about .about1 .good{
+  width: 25vw;
+  height: 20vh;
+  border: none;
+  display: flex;
+  margin-top: 5vw;
+  margin-left: 14vw;
+}
+header .about .about1  .good h2 {
+  width: 5vw;
+  height: 6vh;
+  font-size: 10vw;
+  /* border: solid; */
+  /* display: flex; */
+  margin: 2vw 4vh;
+  padding: 2vw 1.5vh;
+}
+header .about .about1  .good h2 i{
+  color: rgb(0, 153, 255);
+  /* width: 3vw;
+  height: 5vh; */
+  margin-left: 1.9vw;
+  padding: 1vw;
+  border: solid rgb(0, 153, 255) .2vw;
+}
+header .about .about1  .good h2 i:hover {
+  color: rgb(236, 237, 238);
+ 
+  border: solid rgb(240, 244, 247) .2vw;
+}
+
+header .about .about2{
+  width: 100vw;
+  height: 40vh;
+  border: solid 1px white;
+  padding-top: 2vw;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  
+align-items: center;}
+header .about .about2 h1{
+  font-size: 5vw;
+  margin-top: 2vw;
+  margin-left: 40vw;
+   color: rgb(0, 153, 255);
+}
+header .about .about2 .good2{
+  width: 65vw;
+  height: 37vh;
+  /* border: solid; */
+  /* display: flex; */
+  /* margin-top: 2vw; */
+  margin-left: 25vw;
+}
+header .about .about2  .good2 h2 {
+  font-size: 5vw;
+ margin-top: .5vw;
+  color: rgb(0, 153, 255);
+}
+header .about .about2  .good2 h2:hover {
+ margin-top: .5vw;
+  color: rgb(242, 243, 243);
+}
+header .about .about3{
+  width: 100vw;
+  height: 40vh;
+  border: solid 1px white;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  
+align-items: center;}
+header .about .about3 h1{
+  font-size: 7vw;
+  margin-top: 2vw;
+  margin-left: 40vw;
+   color: rgb(0, 153, 255);
+}
+header .about .about3 .good3{
+  width: 66vw;
+  height: 37vh;
+  /* border: solid; */
+  /* display: flex; */
+  /* margin-top: 2vw; */
+  margin-left: 25vw;
+}
+header .about .about3  .good3 h2 {
+  font-size: 5.5vw;
+ margin-top: .9vw;
+  color: rgb(0, 153, 255);
+}
+header .about .about3  .good3 h2 a{
+  text-decoration: none;
+  color: rgb(0, 153, 255);
+}
+header .about .about3  .good3 h2 a p i{
+  font-size: 4vw;
+  margin: 2vw 2vw 2vw 9vw;
+}
+header .about .about3  .good3 h2 a:hover{
+  color: #f1f0f0;
+}
   
 }
