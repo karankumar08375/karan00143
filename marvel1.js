@@ -14,7 +14,7 @@ function addNews() {
     
     // Add title and news content
     newsItem.innerHTML = `
-      <h3>New Fire Brigade News</h3>
+      <h3>New Fire  News</h3>
       <p>${newNews}</p>
       <button class="delete-btn">Delete News</button>
     `;
